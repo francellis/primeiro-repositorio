@@ -1,35 +1,38 @@
-body{
-    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
-   
-}
-
 header{
     text-align: center;
-    background-color: rgba(61, 84, 21, 0.658);
+    background-color:#768a4f;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .nome{
     padding: 50px;
-}
-
-.sumario{
-    color: rgb(249, 255, 250);
+    color: #b3c262;
+    word-spacing: 70px;
+    
 }
 
 a{
-   text-decoration: none; 
+    text-decoration: underline;
+    color: #ffffff;
+    text-decoration: none; 
+     
 }
 
+.sumario{
+    color:#768a4f;
+}
+
+
 .título{
-    color: rgb(21, 74, 33);
+    color:#c72546;
     font-size: 40px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .titulo2{
-    color: rgb(21, 74, 33);
+    color:#66424c;
     font-size: 30px;
     text-align:justify;
     margin: 1cm 3cm 1cm;
@@ -57,4 +60,9 @@ p {
 .susten{
     width: 20%;
     margin-left: 40%;
+}
+
+.date{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1cm 3cm 1cm;
 }
